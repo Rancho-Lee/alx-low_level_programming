@@ -1,8 +1,6 @@
 #include <stdio.h>
 /**
- *main:entry point
- *
- * Description:using put instead of printf
+ *main - entry point
  *
  * Return:Always 0 (success)
 */
