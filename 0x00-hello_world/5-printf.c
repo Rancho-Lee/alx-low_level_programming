@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main: taking a void
+ * main - taking a void
  *
  * Return: Always 0 (success)
  */
