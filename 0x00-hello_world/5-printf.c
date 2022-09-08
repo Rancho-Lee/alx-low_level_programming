@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
- * main: taking a void
+ * short description: taking a void
  *
  * Description: using a printf instead of put
- * 
+ *
  * Return: Always 0 (success)
  */
 int main(void)
