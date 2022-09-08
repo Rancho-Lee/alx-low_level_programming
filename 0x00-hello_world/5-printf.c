@@ -2,8 +2,6 @@
 /**
  * main: taking a void
  *
- * short description: using a printf instead of put
- *
  * Return: Always 0 (success)
  */
 int main(void)
