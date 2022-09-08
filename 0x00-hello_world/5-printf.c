@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * short description: taking a void
+ * main: taking a void
  *
- * Description: using a printf instead of put
+ * short description: using a printf instead of put
  *
  * Return: Always 0 (success)
  */
