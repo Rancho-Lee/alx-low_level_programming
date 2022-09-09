@@ -18,7 +18,8 @@ int main(void)
 
 	while (start != end)
 	{
-		putchar(ch) putchar('\n');
+		putchar(ch);
+		putchar('\n');
 		ch++;
 	}
 	return (0);
