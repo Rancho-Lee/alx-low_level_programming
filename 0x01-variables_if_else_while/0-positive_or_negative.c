@@ -6,7 +6,7 @@
 /**
  * main - 'main' must return 'int';
  *
- * return: 0;
+ * Return: 0;
  */
 
 int main(void)
@@ -29,7 +29,6 @@ int main(void)
 			{
 				printf("%d is negative\n", n);
 			}
-
-return (0);
+			return (0);
 
 }
