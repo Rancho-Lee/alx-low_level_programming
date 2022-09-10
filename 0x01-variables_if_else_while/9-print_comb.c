@@ -8,11 +8,9 @@
 int main(void)
 {
 	int num;
-	int com;
 
-	num = 48..57;
-	com = {num}{num}
+	num = {48..57};
 
-	putchar(com);
+	putchar(com)putchar(com);
 	return (0);
 }
