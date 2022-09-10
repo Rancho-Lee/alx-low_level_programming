@@ -8,12 +8,12 @@
 int main(void)
 {
 	/*declaring my data type and any variable*/
-	char start;
-	char end;
-	char ch;
+	int start;
+	int end;
+	int ch;
 
-	start = 'a';
-	end = 'z';
+	start = 97;
+	end = 122;
 	ch = start;
 
 	while (start <= end)
