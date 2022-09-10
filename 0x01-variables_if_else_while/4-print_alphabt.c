@@ -13,13 +13,13 @@ int main(void)
 	start = 97;
 	end = 122;
 
-	while (start != 113 || start != 101)
+	while (start <= end)
 	{
-		if (start <= end)
+		if (start != 113 || start != 101)
 		{
 			putchar(start);
-			start++;
 		}
+		start++;
 	}
 	putchar('\n');
 	return (0);
