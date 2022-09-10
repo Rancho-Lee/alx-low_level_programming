@@ -16,7 +16,7 @@ int main(void)
 	end = 'z';
 	ch = start;
 
-	while (start != end)
+	while (start <= end)
 	{
 		putchar(ch);
 		ch++;
