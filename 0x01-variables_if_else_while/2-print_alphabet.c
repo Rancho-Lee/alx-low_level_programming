@@ -10,16 +10,14 @@ int main(void)
 	/*declaring my data type and any variable*/
 	int start;
 	int end;
-	int ch;
-
+	
 	start = 97;
 	end = 122;
-	ch = start;
 
 	while (start <= end)
 	{
 		putchar(ch);
-		ch++;
+		start++;
 	}
 	return (0);
 
