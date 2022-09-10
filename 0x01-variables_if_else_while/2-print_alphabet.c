@@ -10,7 +10,7 @@ int main(void)
 	/*declaring my data type and any variable*/
 	int start;
 	int end;
-	
+
 	start = 97;
 	end = 122;
 
@@ -18,6 +18,7 @@ int main(void)
 	{
 		putchar(start);
 		start++;
+		putchar('\n')
 	}
 	return (0);
 
