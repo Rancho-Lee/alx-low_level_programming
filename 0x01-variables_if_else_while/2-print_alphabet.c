@@ -16,7 +16,7 @@ int main(void)
 
 	while (start <= end)
 	{
-		putchar(ch);
+		putchar(start);
 		start++;
 	}
 	return (0);
