@@ -13,16 +13,25 @@ int main(void)
 
 	start = 48;
 	end = 57;
-	start2 = 48;
+	start2 = 49;
 
 	while (start <= end)
 	{
 		while (start2 <= end)
 		{
-			putchar(start);
-			putchar(start2);
+			if (start2 > start)
+			{
+				putchar(start);
+				putchar(start2);
+				if (start != 56)
+				{
+					putchar(',');
+					putchar(' ');
+				}
+			}
 			start2++;
 		}
+		start2 = 49;
 		start++;
 	}
 	putchar('\n');
