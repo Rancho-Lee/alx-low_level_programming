@@ -7,10 +7,21 @@
  */
 int main(void)
 {
-	int num;
+	int start;
+	int end;
 
-	num = {48..57};
+	start = 48;
+	end = 57;
 
-	putchar(com)putchar(com);
+	while (start <= end)
+	{
+		putchar(start);
+		if (start != 57)
+		{
+			putchar(',');
+			putchar(' ');
+		}
+		start++;
+	}
 	return (0);
 }
