@@ -13,9 +13,9 @@ int main(void)
 	start = 97;
 	end = 122;
 
-	while (start <= end)
+	if (start != 113 || start != 101)
 	{
-		if (start !113 || start !101)
+		while (start <= end)
 		{
 			putchar(start);
 			start++;
