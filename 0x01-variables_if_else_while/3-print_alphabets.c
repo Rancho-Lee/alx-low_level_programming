@@ -14,14 +14,19 @@ int main(void)
 
 	start = 97;
 	end =122;
-	ch = start;
 	start2 = 65;
 	end2 = 90;
-	ch2 = start2;
-
-	while (ch <= end)
+	
+	while (start <= end)
 	{
-		putchar(ch);
-		ch++;
+		putchar(start);
+		start++;
 	}
+	while (start2 <= end2)
+	{
+		putchar(start2);
+		start2++;
+	}
+	putchar('\n');
+	return (0);
 }
