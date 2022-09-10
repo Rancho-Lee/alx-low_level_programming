@@ -13,10 +13,10 @@ int main(void)
 	int end2;
 
 	start = 97;
-	end =122;
+	end = 122;
 	start2 = 65;
 	end2 = 90;
-	
+
 	while (start <= end)
 	{
 		putchar(start);
