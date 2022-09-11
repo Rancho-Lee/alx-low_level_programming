@@ -10,6 +10,10 @@ int main(void)
 	int num, end, num2, num3, num4;
 
 	num = 48;
+	end = 57;
+	num2 = 48;
+	num3 = 48;
+	num4 = 49;
 
 	while (num <= end)
 	{
