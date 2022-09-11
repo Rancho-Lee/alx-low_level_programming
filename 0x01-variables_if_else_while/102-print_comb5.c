@@ -1,50 +1,34 @@
 #include <stdio.h>
 /**
- * main - so so complicated a nested loop
+ * main - complicated nest loop
  *
  * Return: 0;
  *
  */
 int main(void)
 {
-	int num, end, num2, num3, num4;
+	int num, num2;
 
-	num = 48;
-	end = 57;
-	num2 = 48;
-	num3 = 48;
-	num4 = 49;
+	num = 0;
 
-	while (num <= end)
+	while (num <= 99)
 	{
-		while (num2 <= end)
+		for (num2 = 0; num2 <= 99; num2++)
 		{
-			while (num3 <= end)
+			if (num2 < num)
 			{
-				while (num4 <= end)
+				putchar((num / 10) + '0');
+				putchar((num % 10) + '0');
+				putchar(' ');
+				putchar((num2 / 10) + '0');
+				putchar((num2 % 10) + '0');
+				if (num != 98 || num2 != 99)
 				{
-					if (num3 > num || num4 > num2)
-					{
-						putchar(num);
-						putchar(num2);
-						putchar(' ');
-						putchar(num3);
-						putchar(num4);
-						if (num2 != 8)
-						{
-							putchar(',');
-							putchar(' ');
-						}
-					}
-					num4++;
+					putchar(',');
+					putchar(' ');
 				}
-				num4 = 48;
-				num3++;
 			}
-			num3 = 48;
-			num2++;
 		}
-		num2 = 48;
 		num++;
 	}
 	putchar('\n');
