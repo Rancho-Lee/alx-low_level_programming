@@ -12,7 +12,7 @@ int main(void)
 	num = 48;
 	num2 = 48;
 	num3 = 48;
-	num4 = 48;
+	num4 = 49;
 	end = 57;
 
 	while (num <= end)
@@ -31,6 +31,7 @@ int main(void)
 					if (num2 != 8)
 					{
 						putchar(',');
+						putchar(' ');
 					}
 					num4++;
 				}
