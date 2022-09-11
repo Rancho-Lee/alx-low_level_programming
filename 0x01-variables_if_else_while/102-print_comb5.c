@@ -10,10 +10,6 @@ int main(void)
 	int num, end, num2, num3, num4;
 
 	num = 48;
-	num2 = 48;
-	num3 = 48;
-	num4 = 49;
-	end = 57;
 
 	while (num <= end)
 	{
@@ -23,15 +19,18 @@ int main(void)
 			{
 				while (num4 <= end)
 				{
-					putchar(num);
-					putchar(num2);
-					putchar(' ');
-					putchar(num3);
-					putchar(num4);
-					if (num2 != 8)
+					if (num3 > num || num4 > num2)
 					{
-						putchar(',');
+						putchar(num);
+						putchar(num2);
 						putchar(' ');
+						putchar(num3);
+						putchar(num4);
+						if (num2 != 8)
+						{
+							putchar(',');
+							putchar(' ');
+						}
 					}
 					num4++;
 				}
