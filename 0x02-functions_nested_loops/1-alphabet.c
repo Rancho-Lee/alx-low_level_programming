@@ -8,8 +8,8 @@ void print_alphabet(void)
 
 	while (num <= num2)
 	{
-		putchar(num);
+		_putchar(num);
 		num++;
 	}
-	putchar('\n');
+	_putchar('\n');
 }
