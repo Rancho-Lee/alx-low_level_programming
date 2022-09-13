@@ -1,4 +1,11 @@
 #include "main.h"
+/**
+ * main - header
+ *
+ * description: creating header
+ * Return: void
+ *
+ */
 void print_alphabet(void)
 {
 	int num, num2;
