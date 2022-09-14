@@ -17,11 +17,26 @@ void times_table(void)
 		while (z < 10)
 		{
 			y = x * z;
-			_putchar(y + '0');
-			if (z != 9)
+			if (y <= 9)
 			{
-				_putchar(',');
-				_putchar(' ');
+				_putchar(y + '0');
+				if (z != 9)
+				{
+					_putchar(',');
+					_putchar(' ');
+					_putchar(' ');
+				}
+			}
+			else if (y > 9)
+			{
+				_putchar((y / 10) + '0');
+				_putchar((y % 10) + '0');
+				if (z != 9)
+				{
+					_putchar(',');
+					_putchar(' ');
+					_putchar(' ');
+				}
 			}
 			z++;
 		}
