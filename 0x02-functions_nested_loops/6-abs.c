@@ -4,15 +4,12 @@
  *
  * @r: parameter
  *
- * Return 0;
+ * Return: 0;
  *
  */
 int _abs(int r)
 {
-	int x;
+	_abs(r);
 
-	x = _abs(r);
-
-	_putchar(x);
 	return (0);
 }
