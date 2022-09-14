@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * add - addition 
+ * add - addition
  *
  * @a: first parameter
  * @b: second parameter
