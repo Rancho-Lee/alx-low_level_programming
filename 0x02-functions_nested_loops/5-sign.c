@@ -9,7 +9,10 @@
  */
 int print_sign(int n)
 {
+	int r;
+	
 	r = _putchar(n);
+	
 	if (r > 0)
 	{
 		_putchar('+');
