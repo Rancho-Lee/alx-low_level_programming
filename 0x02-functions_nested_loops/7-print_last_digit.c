@@ -9,19 +9,20 @@
  */
 int print_last_digit(int r)
 {
-	int x;
+	int last_digit;
 	
-	if (r < 0)
+	last_digit = r % 10;
+
+	if (last_digit < 0)
 	{
-		x = -r % 10;
-		_putchar((-r % 10) + '0');
-		return (x);
+		last_digit = -last_digit
+		_putchar(last_digit + '0');
+		return (last_digit);
 	}
 	else
 	{
-		x = r % 10;
-		_putchar((r % 10) + '0');
-		return (x);
+		_putchar(last_digit + '0');
+		return (last_digit);
 	}
 	return (0);
 }
