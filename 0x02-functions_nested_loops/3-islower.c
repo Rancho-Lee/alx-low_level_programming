@@ -3,9 +3,8 @@
  * _islower - Entry point
  *
  * Description: getting the lower alphabet
- * 
- * c - parameter
  *
+ * @c: parameter to run
  * Return: 0;
  *
  */
