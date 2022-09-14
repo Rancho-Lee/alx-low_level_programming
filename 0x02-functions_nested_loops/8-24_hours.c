@@ -20,7 +20,7 @@ void jack_bauer(void)
 			while (num2 <= 53)
 			{
 				num3 =48;
-				while (num3 < 57)
+				while (num3 <= 57)
 				{
 					_putchar(num);
 					_putchar(num1);
