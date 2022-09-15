@@ -11,9 +11,10 @@ void print_numbers(void)
 	
 	i = 48;
 	
-	for (i = 48; i <= 57; i++)
+	while (i <= 57)
 	{
 		_putchar(i);
+		i++;
 	}
 	_putchar('\n');
 }
