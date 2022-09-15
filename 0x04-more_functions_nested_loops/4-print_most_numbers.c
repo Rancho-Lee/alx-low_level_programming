@@ -1,10 +1,18 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * print_most_numbers - print certain numbers
  *
  * Return: void;
  *
  */
+int main(void)
+{
+	print_most_numbers();
+
+	return (0);
+}
+
 void print_most_numbers(void)
 {
 	int num;
@@ -15,9 +23,9 @@ void print_most_numbers(void)
 	{
 		if (num != 50 && num != 52)
 		{
-			_putchar(num);
+			putchar(num);
 		}
 		num++;
 	}
-	_putchar('\n');
+	putchar('\n');
 }
