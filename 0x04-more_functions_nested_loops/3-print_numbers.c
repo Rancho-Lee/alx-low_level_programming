@@ -1,8 +1,9 @@
 #include "main.h"
+
 /**
  * print_numbers - printing of numbers
  *
- * Return:;
+ * Return: void;
  *
  */
 void print_numbers(void)
@@ -10,7 +11,6 @@ void print_numbers(void)
 	int n;
 	
 	n = 48;
-	
 	while (n < 58)
 	{
 		_putchar(n);
