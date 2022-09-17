@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * main - finds and prints the largest factor of 612852475143
  * followed by a new line
@@ -7,10 +8,10 @@
 int main(void)
 {
 	long int x, i, pf;
-	
+
 	pf = -1;
 	x = 612852475143;
-	
+
 	while (x % 2 == 0)
 	{
 		pf = 2;
@@ -27,6 +28,6 @@ int main(void)
 	if (x > 2)
 		pf = x;
 	printf("%ld\n", pf);
-	
+
 	return (0);
 }
