@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * fizz_buzz - printing fizz buzz on certain numbers
+ * main - printing fizz buzz on certain numbers
  * Return: void;
  */
 int main(void)
