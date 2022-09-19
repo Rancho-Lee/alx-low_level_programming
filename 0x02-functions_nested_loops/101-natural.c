@@ -14,7 +14,6 @@ int main(void)
 
 	for (n = 0; n < 1024; n++)
 	{
-		m = 0;
 		if (n % 3 == 0)
 		{
 			m += n;
