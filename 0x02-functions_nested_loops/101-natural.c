@@ -3,7 +3,7 @@
  * main - print sum of numbers
  * Return: void;
  */
-void main(void)
+int main(void)
 {
 	unsigned long int p, m, o;
 	int n;
