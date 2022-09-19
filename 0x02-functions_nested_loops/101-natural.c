@@ -26,4 +26,5 @@ int main(void)
 	}
 	p = o + m;
 	printf("%lu\n", p);
+	return (0);
 }
