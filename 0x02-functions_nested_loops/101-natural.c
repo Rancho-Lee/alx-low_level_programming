@@ -1,0 +1,28 @@
+#include <stdio.h>
+/**
+ * main - print sum of numbers
+ * Return: void;
+ */
+void main(void)
+{
+	int p, m, o;
+
+	o = 0;
+	m = 0;
+	p = 0;
+
+	for (n = 0; n < 1024; n++)
+	{
+		m = 0;
+		if (n % 3 == 0)
+		{
+			m += n;
+		}
+		else if (n % 5 == 0)
+		{
+			o += n;
+		}
+	}
+	p = o + m;
+	printf("%lu\n", p);
+}
