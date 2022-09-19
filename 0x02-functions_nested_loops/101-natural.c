@@ -5,7 +5,8 @@
  */
 void main(void)
 {
-	int p, m, o;
+	unsigned long int p, m, o;
+	int n;
 
 	o = 0;
 	m = 0;
