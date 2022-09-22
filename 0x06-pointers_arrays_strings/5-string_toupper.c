@@ -1,12 +1,14 @@
 #include "main.h"
 /**
  * string_toupper - coverting string to upper case
- * @s - string to be converted
+ * @s:string to be converted
  * Return: string result;
  */
 char *string_toupper(char *s)
 {
 	int i;
+
+	i = 0;
 
 	while (s[i] != '\0')
 	{
