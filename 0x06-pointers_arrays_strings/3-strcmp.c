@@ -1,5 +1,6 @@
 #include "main.h"
-/**_strcmp - comparing strings
+/**
+ * _strcmp - comparing strings
  * @s1: first sttring
  * @s2: second string
  * Return: difference between the two strings;
@@ -17,6 +18,6 @@ int _strcmp(char *s1, char *s2)
 		i++;
 	}
 	result = s1[i] - s2[i];
-	
+
 	return (result);
 }
