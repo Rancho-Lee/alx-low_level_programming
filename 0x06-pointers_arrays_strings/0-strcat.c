@@ -1,9 +1,19 @@
+#include <stdio.h>
 #include "main.h"
 /**
  * _strcat - concatenating two strings
  * @dest: destination of file
  * @src: the file source
  */
+int main(void)
+{
+	char s1[98] = "Hello ";
+	char s2[] = "World\n ";
+	char *ptr;
+	
+	ptr = _strcat(s1, s2);
+	printf("%s", ptr);
+}
 char *_strcat(char *dest, char *src)
 {
 	int len, i;
@@ -14,7 +24,7 @@ char *_strcat(char *dest, char *src)
 	{
 		len++;
 	}
-	for (i = 0; src[i] != '\0'; i++; len++)
+	for (i = 0; src[i] != '\0'; i++, len++)
 	{
 		dest[len] = src[i];
 	}
