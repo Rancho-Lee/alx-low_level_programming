@@ -4,6 +4,7 @@
  * @dest: the destination of new string
  * @src: source of the string
  * @n: number of string to be catenated
+ * Return: character
  */
 char *_strncat(char *dest, char *src, int n)
 {
@@ -15,7 +16,8 @@ char *_strncat(char *dest, char *src, int n)
 	{
 		len++;
 	}
-	for (i = 0; i < n && src[i] != '\0', i++, len++)
+
+	for (i = 0; i < n && src[i] != '\0'; i++, len++)
 	{
 		dest[len] = src[i];
 	}

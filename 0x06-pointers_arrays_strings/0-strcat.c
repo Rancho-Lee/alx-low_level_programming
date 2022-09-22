@@ -3,6 +3,7 @@
  * _strcat - concatenating two strings
  * @dest: destination of file
  * @src: source file
+ * Return: character
  */
 char *_strcat(char *dest, char *src)
 {
@@ -19,6 +20,6 @@ char *_strcat(char *dest, char *src)
 		dest[len] = src[i];
 	}
 	dest[len] = '\0';
-	
+
 	return (dest);
 }
