@@ -12,23 +12,23 @@ char *cap_string(char *a)
 	
 	i = 0;
 	
-	while (s[i] != '\0')
+	while (a[i] != '\0')
 	{
-		if (i == 0 && s[i] >= 'a' && s[i] <= 'z')
+		if (i == 0 && a[i] >= 'a' && a[i] <= 'z')
 		{
-			s[i] -= 32;
+			a[i] -= 32;
 		}
 		for (j = 0; j < 13; j++)
 		{
-			if (s[i] == spec[j])
+			if (a[i] == spec[j])
 			{
-				if (s[i + 1] >= 'a' && s[i + 1] <= 'z')
+				if (a[i + 1] >= 'a' && a[i + 1] <= 'z')
 				{
-					s[i + 1] -= 32;
+					a[i + 1] -= 32;
 				}
 			}
 		}
 		i++;
 	}
-	return (s);
+	return (a);
 }
