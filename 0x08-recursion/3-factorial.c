@@ -1,4 +1,4 @@
-#incude "main.h"
+#include "main.h"
 /**
  * factorial - calculating the factorial of an interger
  * @n: interger to factorial
