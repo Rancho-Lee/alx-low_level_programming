@@ -1,6 +1,6 @@
 #include "main.h"
 int prime(int n, int i);
-/**
+ /**
  * is_prime_number - checking for prime numbers
  * @n: numbers  to check for
  * Return: int;
@@ -12,11 +12,11 @@ int is_prime_number(int n)
 	{
 		return (0);
 	}
-	return (prime(n, n - 1);
+	return (prime(n, n - 1));
 }
 
 /**
- * is_prime_number - checking for prime numbers
+ * prime - checking for prime numbers
  * @n: numbers to check for
  * @i: iterator
  * Return: int;
@@ -28,7 +28,7 @@ int prime(int n, int i)
 	{
 		return (1);
 	}
-	if (n % i = 0 && i > 0)
+	if (n % i == 0 && i > 0)
 	{
 		return (0);
 	}
