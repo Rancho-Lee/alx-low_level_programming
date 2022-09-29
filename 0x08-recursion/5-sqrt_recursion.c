@@ -1,10 +1,10 @@
 #include "main.h"
+int _sqrt_recursion(int n, int i);
 /**
  * _sqrt_recursion - using recursion to get a natural squareroot of an integer
  * @n: the integer to get its naturalsquareroot
  * Return: int;
  */
-int _sqrt_recursion(int n, int i);
 int _sqrt_recursion(int n)
 {
 	if (n < 0)

@@ -1,17 +1,18 @@
 #include "main.h"
+int prime(int n, int i);
 /**
  * is_prime_number - checking for prime numbers
  * @n: numbers  to check for
  * Return: int;
  */
-int is_prime_number(int n, int i);
+
 int is_prime_number(int n)
 {
 	if (n <= 1)
 	{
 		return (0);
 	}
-	return (is_prime_number(n, n - 1);
+	return (prime(n, n - 1);
 }
 
 /**
@@ -21,7 +22,7 @@ int is_prime_number(int n)
  * Return: int;
  */
 
-int is_prime_number(int n, int i)
+int prime(int n, int i)
 {
 	if (i == 1)
 	{
@@ -31,5 +32,5 @@ int is_prime_number(int n, int i)
 	{
 		return (0);
 	}
-	return (is_prime_number(n, i - 1);
+	return (prime(n, i - 1));
 }
