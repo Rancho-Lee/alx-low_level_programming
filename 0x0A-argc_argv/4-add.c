@@ -9,18 +9,18 @@
 int main(int argc, char *argv[])
 {
 	int i, j, add;
-	
+
 	add = 0;
-	
-	if (argc == 1)
+
+	if (argc < 2)
 	{
 		printf("0\n");
 	}
 	for (i = 1; i < argc; i++)
 	{
-		for(j = 0; argv[i][j] != '\0'; j++)
+		for (j = 0; argv[i][j] != '\0'; j++)
 		{
-			if(argv[i][j] < '\0' || argv[i][j] > '9')
+			if (argv[i][j] < '\0' || argv[i][j] > '9')
 			{
 				printf("Error\n");
 				return (1);
