@@ -12,10 +12,13 @@ char *string_nconcat(char s1, char s1, unsigned int n)
 	char *p;
 	unsigned int len1, len2, i, j;
 
+	len1 = 0, len2 = 0;
+
 	while (s1 && s1[len1])
 		len1++;
 	while (s2 && s2[len2])
 		len2++;
+
 	if (n < len2)
 	{
 		p = malloc(sizeof(char) * (len1 + n + 1));
