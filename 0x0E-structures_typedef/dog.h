@@ -1,5 +1,6 @@
-#define DOG_H
 #ifndef DOG_H
+#define DOG_H
+
 /**
  * struct dog - creating struct
  * @name: first
@@ -7,6 +8,7 @@
  * @owner: third
  * return: 0;
  */
+
 struct dog
 {
 	char *name;
