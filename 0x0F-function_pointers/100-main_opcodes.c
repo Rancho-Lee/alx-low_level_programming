@@ -9,7 +9,7 @@ int main(int ac, char **av)
 {
 	int byte, bytes, i;
 	char *ptr;
-	
+
 	if (ac != 2)
 	{
 		printf("Error\n");
