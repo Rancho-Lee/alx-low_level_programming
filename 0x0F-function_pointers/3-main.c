@@ -9,7 +9,7 @@ int main(int ac, char **av)
 {
 	int a, b, func_call;
 	char *s;
-	
+
 	if (ac != 4)
 	{
 		printf("Error\n");
@@ -23,7 +23,7 @@ int main(int ac, char **av)
 	a = atoi(av[1]);
 	b = atoi(av[3]);
 	s = av[2];
-	
+
 	if (*s != '+' && *s != '-' && *s != '/' && *s != '%' && *s != '*')
 	{
 		printf("Error\n");
