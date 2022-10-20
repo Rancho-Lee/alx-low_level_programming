@@ -1,5 +1,4 @@
 #include "variadic_functions.h"
-#include <stdarg.h>
 /**
  * sum_them_all - sumation using variadic fun
  * @n: number of int to sum
@@ -8,7 +7,7 @@
 int sum_them_all(const unsigned int n, ...)
 {
 	va_list ap;
-	int i, int sum;
+	int i, int sum = 0;
 	
 	if (n == 0)
 		return (0);
