@@ -15,7 +15,7 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 
 	for (i = 0; i < n; i++)
 	{
-		num_arg = arg(ap, int);
+		num_arg = va_arg(ap, int);
 		if (!separator)
 			printf("%d", num_arg);
 		else if (separator && i == n - 1)
