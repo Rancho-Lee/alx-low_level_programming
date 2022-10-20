@@ -1,9 +1,8 @@
 #include "variadic_functions.h"
 /**
  * print_numbers - printing of numbers
- * @seperator: seperating numbers to be printed
+ * @separator: seperating numbers to be printed
  * @n: number of int passed
- * Return: 
  */
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
@@ -25,5 +24,5 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 	}
 
 	va_end(ap);
-	printf('\n');
+	printf("\n");
 }
