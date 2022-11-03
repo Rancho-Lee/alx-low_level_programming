@@ -13,7 +13,7 @@ int _putchar(char c);
 
 #include <sys/stat.h>                                                                                                                                           
 
-#include <fontl.h> 
+#include <fcntl.h> 
 
 #include <unistd.h>
 
