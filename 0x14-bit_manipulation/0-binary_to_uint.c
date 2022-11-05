@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * binary_to_unit - convert binary to unit
+ * binary_to_uint - convert binary to unit
  * @b: pointer to the binary to be converted
  * Return: int
  */
-unsigned int binary_to_unit(const char *b)
+unsigned int binary_to_uint(const char *b)
 {
 	int i;
 	unsigned int dec_val = 0;
