@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdio.h>
+
 /**
  * _realloc - reallocates memeory using malloc
  * @ptr: pointer to previous memory
