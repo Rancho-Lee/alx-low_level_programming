@@ -76,8 +76,8 @@ void insert_sort(shash_node_t *node, shash_table_t *ht)
 		ht->stail = node;
 	else
 		head->snext->sprev = node;
-		node->snext = head->snext;
-		head->snext = node;
+	node->snext = head->snext;
+	head->snext = node;
 }
 
 /**
